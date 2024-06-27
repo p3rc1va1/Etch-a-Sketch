@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#bigContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: teal;
+    gap: 10px;
+    border:solid;
+    flex: 2;
+    min-height: 120px;
+    border-radius: 15px;
+}
+#dimensions{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+#columns{
+    width: 55%;
+    border: solid teal;
+    border-radius: 15px;
+    text-align: center;
+}
+#rows{
+    width: 55%;
+    border: solid teal;
+    border-radius: 15px;
+    text-align: center;
+}
+.inputLabelOrder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#columnContainer{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    min-height: 400px;
+    min-width: 400px;
+    border: solid teal;
+    border-top: 0;
+    flex:6;
+    border-radius: 15px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
