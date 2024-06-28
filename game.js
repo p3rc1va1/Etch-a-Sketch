@@ -1,5 +1,8 @@
-const content = document.querySelector("#content")
-
+const content = document.querySelector("#content");
+const columns = document.querySelector("#columns");
+const rows = document.querySelector("#rows");
+columns.value = 16;
+rows.value = 16
 
 //main function to create the grid
 function createGrid(columns = 16,rows=16){
@@ -34,8 +37,6 @@ function createGrid(columns = 16,rows=16){
 const refresh = document.querySelector("#refresh")
 refresh.addEventListener("click", ()=>{
     const allPixels = document.querySelector(".all");
-    const columns = document.getElementById("columns");
-    const rows = document.getElementById("rows")
     content.removeChild(allPixels);
     createGrid(Number(columns.value),Number(rows.value))
 
